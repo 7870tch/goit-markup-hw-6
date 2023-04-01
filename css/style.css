@@ -600,6 +600,15 @@ align-items: center;
 .social-medial-list-link:focus {
   background: var(--social-icon);
 }
+.footer-subscrib-header{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    color: var(--light-section);
+    margin-bottom: 24px;
+    display: flex
+}
+
 /*=================/FOOTER============*/
 /*================MODAL WINDOW=============*/
 .backdrop {
