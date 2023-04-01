@@ -740,4 +740,46 @@ position: absolute;
  top: 50%;
  left: 16px;
 transform: translateY(-50%);}
+
+.modal-form-custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: var(--modal);
+  border-radius: 2px;
+  padding-left: 3px;
+  padding-right: 4px;
+}
+.modal-form-checkbox-icon {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.modal-form-check:checked + .modal-form-custom-checkbox{
+  background-color: var(--focuc);
+  border: 1px solid var(--focuc) ;
+}
+
+ .modal-form-check:checked +.modal-form-custom-checkbox .modal-form-checkbox-icon{
+opacity: 1;
+fill: var(--background-icon);
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: o;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip:rect(0000);
+  overflow: hidden;
+}
 /*================/MODAL FORM=============*/
