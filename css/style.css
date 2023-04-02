@@ -524,6 +524,7 @@ background-color: var(--color-title);
 
 .footer-container {
   display: flex; 
+  justify-content: space-between;
   
 }
 
@@ -531,21 +532,30 @@ background-color: var(--color-title);
 display: flex;
 display: block;
 }
-
+.logo-footer{
+  padding-top: 0px;
+  font-family: var(--secondary-font);
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: var(--logo);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+    
+    
+}
 .accent-footer {
   color: var(--logo-dark);
   
 }
-.footer-social{
-  margin-left: 120px;
-}
+
 .suptitle {
 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--lighy-text);
     display: block;
-   margin-top: 16px;
    width: 264px;
 
 
@@ -557,8 +567,8 @@ display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-icon);
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 24px;
+  
   
 }
 
@@ -603,7 +613,6 @@ align-items: center;
 .subscrib-wrapper {
   display: inline-block;
   justify-content:space-evenly;
-  margin-left: 80px;
 
 }
 
@@ -613,7 +622,7 @@ align-items: center;
     line-height: 1.5px;
     color: var(--light-section);
     display: inline-block;
-    margin-bottom: 16px;
+   margin-bottom: 16px;
     
 }
 .footer-subscribe {
@@ -622,11 +631,11 @@ align-items: center;
 .footer-form-input {
   width: 264px;
   height: 40px;
-  margin-bottom: 140px;
   background-color: var(--color-title);
   border: 1px solid var(--light-section);
   border-radius: 4px;
   padding-left: 16px;
+  margin-top: 16px;
 
 }
 
@@ -648,25 +657,16 @@ align-items: center;
   height: 40px;
   justify-content: space-around;
   align-items: center;
-  margin-right: 223px;
-  margin-bottom: 140px;
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
   color: var(--light-section);
+margin-top: 16px;
   
    
 }
 
-.footer-form-input::placeholder{
-  font-size: 12px;
-  line-height: 2;
-  display: flex;
-  align-items: center;
-  color: var(--light-section);
-  
-}
+
 .subscribe-icon{
   display: flex;
   justify-content: center;
