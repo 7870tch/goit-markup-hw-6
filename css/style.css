@@ -591,9 +591,7 @@ transition: background-color var(--transition-duration-and-func);
 .social-medial-list-icon {
 color: var(--background-icon);
 justify-content: center;
-align-items: center;
-
-
+align-items: center:
 
 }
 .social-medial-list-link:hover,
@@ -605,10 +603,66 @@ align-items: center;
     font-size: 16px;
     line-height: 1.5px;
     color: var(--light-section);
-    margin-bottom: 24px;
-    display: flex
+    display: inline-block;
+   
+    
+}
+.subscribe-btn {
+  background: var(--background-button);
+  border-radius: 4px;
+  margin-left: 24px;
+  width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 223px;
+  margin-bottom: 140px;
+  display: flex;
 }
 
+.subscribe-btn-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  color: var(--light-section);
+  margin-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscrib-wrapper{
+  display: inline-block;
+ display: flex;
+ justify-content: flex-end;
+ 
+
+ 
+}
+.footer-form-input{
+  width: 264px;
+  height: 40px;
+  margin-bottom: 140px;
+  background-color: var(--color-title);
+  border: 1px solid var(--light-section);
+  border-radius: 4px;
+  padding-left: 16px;
+  
+}
+.footer-form-input::placeholder{
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  color: var(--light-section);
+  
+}
+.subscribe-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*=================/FOOTER============*/
 /*================MODAL WINDOW=============*/
 .backdrop {
@@ -678,6 +732,8 @@ background-color:var(--focuc);
   color: var(--light-section);
 }
 
+
+
 /*================/MODAL WINDOW=============*/
 /*================/MODAL FORM =============*/
 .modal-form {
@@ -695,7 +751,7 @@ background-color:var(--focuc);
   
 }
 
-.modal-form-input:focus{
+.modal-form-input:focus {
   border-color: var(--focuc);
   outline: none;
 }
@@ -824,8 +880,8 @@ fill: var(--background-icon);
   
   font-size: 16px;
   line-height: 1.5px;
-  width: 105px;
-  height: 24px;
+  width: 169px;
+  height: 56px;
   
 
 }
