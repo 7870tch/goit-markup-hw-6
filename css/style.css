@@ -573,6 +573,7 @@ display: block;
 .social-medial-list-item {
   
   justify-content: flex-start;
+  
 
 }
 
@@ -582,65 +583,43 @@ display: block;
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
- justify-content: start;
+ justify-content: center;
  align-items: center;
 transition: background-color var(--transition-duration-and-func);
-  
+ 
 }
 
 .social-medial-list-icon {
 color: var(--background-icon);
 justify-content: center;
-align-items: center:
+align-items: center;
 
 }
 .social-medial-list-link:hover,
 .social-medial-list-link:focus {
   background: var(--social-icon);
 }
-.footer-subscrib-header{
+
+.subscrib-wrapper {
+  display: inline-block;
+  justify-content:space-evenly;
+  margin-left: 80px;
+
+}
+
+.footer-subscribe-header{
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5px;
     color: var(--light-section);
     display: inline-block;
-   
+    margin-bottom: 16px;
     
 }
-.subscribe-btn {
-  background: var(--background-button);
-  border-radius: 4px;
-  margin-left: 24px;
-  width: 165px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  margin-right: 223px;
-  margin-bottom: 140px;
+.footer-subscribe {
   display: flex;
 }
-
-.subscribe-btn-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5px;
-  color: var(--light-section);
-  margin-right: 16px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  justify-content: center;
-  align-items: center;
-}
-
-.subscrib-wrapper{
-  display: inline-block;
- display: flex;
- justify-content: flex-end;
- 
-
- 
-}
-.footer-form-input{
+.footer-form-input {
   width: 264px;
   height: 40px;
   margin-bottom: 140px;
@@ -648,8 +627,38 @@ align-items: center:
   border: 1px solid var(--light-section);
   border-radius: 4px;
   padding-left: 16px;
-  
+
 }
+
+.footer-form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  color: var(--light-section);
+
+}
+
+.subscribe-btn {
+  display: flex;
+  background: var(--background-button);
+  border-radius: 4px;
+  margin-left: 24px;
+  width: 165px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 223px;
+  margin-bottom: 140px;
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  color: var(--light-section);
+  
+   
+}
+
 .footer-form-input::placeholder{
   font-size: 12px;
   line-height: 2;
