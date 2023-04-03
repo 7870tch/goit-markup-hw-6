@@ -636,6 +636,8 @@ align-items: center;
   border-radius: 4px;
   padding-left: 16px;
   margin-top: 16px;
+  outline: none;
+  color: var(--light-section);
 
 }
 
@@ -661,8 +663,9 @@ align-items: center;
   font-size: 16px;
   line-height: 1.5px;
   color: var(--light-section);
-margin-top: 16px;
-  
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
    
 }
 
@@ -731,6 +734,8 @@ transition: opacity var(--transition-duration-and-func), visibility var(--transi
 transition: color var(--transition-duration-and-func);
 color:var(--color-title);
 fill:currentColor;
+cursor: pointer;
+border: none;
 }
 .modal-close-btn:hover, 
 .modal-close-btn:focus {
@@ -829,6 +834,7 @@ transition: var(--transition-duration-and-func);}
   padding-right: 4px;
   appearance: none;
   transition: backgruond var(--transition-duration-and-func);
+  cursor: pointer;
 }
 .modal-form-checkbox-icon {
   display: block;
@@ -892,8 +898,10 @@ fill: var(--background-icon);
   
   font-size: 16px;
   line-height: 1.5px;
-  width: 169px;
+  width: 100%;
+  max-width: 169px;
   height: 56px;
+  border: none;
   
 
 }
