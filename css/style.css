@@ -812,7 +812,8 @@ fill: var(--active-link);
 position: absolute;
  top: 50%;
  left: 16px;
-transform: translateY(-50%);}
+transform: translateY(-50%);
+transition: var(--transition-duration-and-func);}
 
 .modal-form-custom-checkbox {
   display: inline-flex;
@@ -841,7 +842,9 @@ transform: translateY(-50%);}
   background-color: var(--focuc);
   border: 1px solid var(--focuc) ;
 }
-
+.modal-form-check{
+  transition: var(--transition-duration-and-func);
+}
  .modal-form-check:checked +.modal-form-custom-checkbox .modal-form-checkbox-icon{
 opacity: 1;
 fill: var(--background-icon);
